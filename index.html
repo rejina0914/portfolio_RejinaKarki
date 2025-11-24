@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My project</title>
-	<link href="style.css":rel="stylesheet">
+	<title>Protfolio_RejinaKarki</title>
+	<link rel="stylesheet"href="style.css">
 </head>
 <body>
 	<header>
@@ -12,39 +12,55 @@
 		<nav>
 			<ul>
 				<li><a href ="#about">About </a></li>
-				<li><a href = "#projects">Project</a></li>
-				<li><a href = "#Contact">Contact</a></li>
+				<li><a href = "#project">Project</a></li>
+				<li><a href = "#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
-	<section id ="About me">
-		<h1>About me </h1>
-		<p >My name is Rejina Karki.I am currently pursing my Bachelor degree in Herald college.</p>
+	<section id ="About">
+		<h1>About Me </h1>
+		<div class = "container">
+			<img src="image_profile.png" >
+			<p >My name is Rejina Karki.I am 20 years old.I am currently pursing my Bachelor degree in BIT in Herald college.I am passionate about learning new things and have a deep understanding in the topic i am interested in.During my freetime,I love listening to music as well as crooning
+			the music and help my mom in kitchen work.</p>
+	    </div>
 	</section>
-	<div id = "My project">
+	<section id = "Projects">
 		<h1>My Project</h1>
-		<img src="zoo.png"/>
-		<p>The virtual zoo is a 3D serious game that combines learning skill with fun and intraction.This project was given by our professor Akash Adikari in Interactive 3D application and Academic skill.We worked in group to buld this project and it was a good experience.</p>
-		<img src ="Banking.png"/>
-		<p></p>
-	</div>
-	<section id = "Contact me">
+		<div class ="projects-container">
+			<div class = "Project">
+				<img src="zoo.png">
+				<h3>3D Zoo</h3>
+				<p>The virtual zoo is a 3D serious game that combines learning skill with fun and interaction.Player can explore a realistic zoo environment and click on animals to display facts and play sounds.This application is made for the purpose of entertainment so that users can enjoy the environment.</p>
+		    </div>
+
+		    <div class ="Project">
+		    	<img src ="Banking.png">
+		    	<h3>Banking System</h3>
+		    	<p>It is a simple banking system made in Java,where the user can enter account numbers and amounts to perform basic banking operations such as depositing money,  withdrawing money, transferring funds between two accounts, and viewing all stored accounts through dedicated input fields and buttons. </p>
+		    </div>
+		</div>
+	</section>
+
+<section id = "Contact">
+	<div class = "form_container">
+		<h1> Contact me</h1>
 		<form>
-			<h1> Contact me</h1>
-			<label Name>Name</label>
+			<label>Name:</label>
 			<input type ="text" placeholder="Enter your name:">
 
-			<label Email>Email</label>
+			<label>Email:</label>
 			<input type ="text" placeholder="Enter your Email:">
 
-			<label Message>Message</label>
+			<label>Message:</label>
 			<input type ="text" placeholder="Enter message:">
-
-			<button type ="Submit">Submit</button>
+			<button type ="submit">Submit</button>
 		</form>
-		<footer>
-			<p>&Copyright:All right reserved</p>
-		</footer>
-	</section>
+		</div>
+</section>
+<footer>
+	<p>&Copyright:All right reserved</p>
+	<p>Designed and developed by Rejina Karki</p>
+</footer>
 </body>
 </html>
